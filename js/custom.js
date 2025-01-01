@@ -441,14 +441,24 @@ document.addEventListener("DOMContentLoaded", function () {
   
 	searchLink.addEventListener("click", function () {
 	  if (selectedValue1 && selectedValue2) {
+		if (selectedValue1 != "Purwokerto" && selectedValue1 != "Jogjakarta") {
+		  alert("Maaf, untuk sementara kami hanya melayani rute dari Purwokerto atau Jogjakarta");
+		  return;
+		}
+
 		const waURL = `https://wa.me/62816693480?text=Saya%20ingin%20pesan%20travel%20dari%20${encodeURIComponent(
 		  selectedValue1
 		)}%20ke%20${encodeURIComponent(selectedValue2)}%20berapa%20ya?`;
   
 		window.open(waURL, "_blank");
-	  } else {
+	  }
+	  else {
 		alert("Isi dengan benar!!");
 	  }
 	});
   });
 	
+
+  function hidePopup() {
+	document.getElementById('popupOverlay').classList.add('hidden');
+  }
