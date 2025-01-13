@@ -439,7 +439,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	  handleExchange();
 	});
   
-	searchLink.addEventListener("click", function () {
+	/* searchLink.addEventListener("click", function () {
 	  if (selectedValue1 && selectedValue2) {
 		if (selectedValue1 != "Purwokerto" && selectedValue1 != "Jogjakarta") {
 		  alert("Maaf, untuk sementara kami hanya melayani rute dari Purwokerto atau Jogjakarta");
@@ -455,7 +455,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	  else {
 		alert("Isi dengan benar!!");
 	  }
-	});
+	}); */
   });
 	
 
