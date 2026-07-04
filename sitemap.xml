@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://berkahsuruhh.github.io/</loc>
-    <lastmod>2025-01-01</lastmod>
-    <priority>1.0</priority>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://berkahsuruhh.github.io/</loc>
+  <lastmod>2026-07-04T00:00:00+07:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://berkahsuruhh.github.io/travel-purwokerto-jogja/</loc>
+  <lastmod>2026-07-04T00:00:00+07:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://berkahsuruhh.github.io/travel-jogja-purwokerto/</loc>
+  <lastmod>2026-07-04T00:00:00+07:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://berkahsuruhh.github.io/paket-wisata-jogja-dari-purwokerto/</loc>
+  <lastmod>2026-07-04T00:00:00+07:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+
 </urlset>
